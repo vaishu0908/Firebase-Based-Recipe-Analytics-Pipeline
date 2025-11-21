@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.env.* 
+
+# Node
+node_modules/
+dist/
+
+# Local IDEs
+.vscode/
+.idea/
+
+# Data / secrets (do not commit real keys)
+data/*.json
+data/*.csv
+secrets/
+serviceAccountKey.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
